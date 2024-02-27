@@ -36,3 +36,10 @@
   width: 60%;
   margin-left: 250px;
 }
+.amiraux{
+  display: grid;
+  grid-template-columns: 200px 200px ;
+  margin-left: 80px;
+  grid-template-rows: 10PX ;
+  gap: 30px;
+}
