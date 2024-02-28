@@ -73,7 +73,7 @@ body{
 
 .section1{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
     width: 100%;
 }
 
@@ -82,9 +82,8 @@ body{
     border: 2px solid black;
     height: fit-content;
     margin: 2px;
-    margin-top: 5px;
+    margin-top: 50px;
     margin-left: 15px;
-    
     line-height: 20px;
     width: 100%;
 }
@@ -107,15 +106,17 @@ body{
 .bountygoldroger{
     display: flex;
     flex-direction: column;
-    max-width: 25%;
-    min-width: 25%;
-    padding-right: 150px;
+    max-width: 40%;
+    min-width: 40%;
+    padding-right: 50px;
     padding-left: 50px;
     padding-top: 5px;
+    margin-left: 5%;
 }
 
 .imgbountygrg{
     border: 2px solid black;
+
 }
 
 .txtgoldroger{
@@ -123,11 +124,9 @@ body{
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.007);
     margin-left: 20%;
-    margin: 2px;
-    margin-top: 5px;
+    margin-top: 20px;
     padding: 5px;
-    display: flex;
-    flex-direction: column;
+    margin-right: 20%;
     max-width: 100%;
     height: fit-content;
     border: 2px solid black;
@@ -163,6 +162,10 @@ footer{
     background-color: #dd7a19;
 }
 
+.contacteznous{
+    text-align: center;
+}
+
 .phraseluffy{
     padding-left: 10px;
 }
@@ -184,9 +187,10 @@ footer{
     list-style-type: none;
     width: fit-content;
     height: fit-content;
-    margin-bottom: 0%;
     gap: 10px;
     color: #ffffff;
     padding: 0%;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
