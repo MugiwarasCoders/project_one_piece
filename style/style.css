@@ -6,7 +6,7 @@ header{
 }
 
 .part1header{
-    background-color: #dd7b19fb;
+    background-color: #dd7b19;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,6 +36,7 @@ input{
     margin-right: 1%;
     padding: 5px 5px 3px;
     border: 2px solid black;
+    width: 12%;
 }
 
 
@@ -61,19 +62,21 @@ a{
     color: #ffffff;
 } 
 
-
-
 /*----------------------MILIEU DE PAGE-----------------------*/
 
 body{
     margin: 0%;
-    margin-right: 0%;
     background-color:  #ffebc5;
 }
 
 .section1{
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.divactualite {
+    margin-left: 2.5%;
     width: 100%;
 }
 
@@ -81,11 +84,10 @@ body{
     border-radius: 5px;
     border: 2px solid black;
     height: fit-content;
-    margin: 2px;
-    margin-top: 50px;
-    margin-left: 15px;
-    line-height: 20px;
     width: 100%;
+    margin: 2px;
+    margin-top: 20px;
+    line-height: 20px;
 }
 
 .nextsorties{
@@ -111,7 +113,6 @@ body{
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 5px;
-    margin-left: 5%;
 }
 
 .imgbountygrg{
@@ -119,14 +120,18 @@ body{
 
 }
 
+.articlegoldroger {
+    margin-right: 2.5%;
+}
+
 .txtgoldroger{
     text-align: center;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.007);
-    margin-left: 20%;
+    /* margin-left: 20%; */
     margin-top: 20px;
     padding: 5px;
-    margin-right: 20%;
+    /* margin-right: 20%; */
     max-width: 100%;
     height: fit-content;
     border: 2px solid black;
@@ -134,14 +139,41 @@ body{
 
 .titregoldroger{
     text-decoration: underline;
+    margin-top: 0%;
+}
+
+@media (max-width: 768px){
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        width: 25%;
+    }
+
+    .bountygoldroger{
+        margin-top: 15px;
+    }
+
+    .actualités{
+        margin: 0%;
+        width: 50%;
+    }
+
+    video{
+        width: 25%;
+    }
+
+    .listecontacts{
+        font-size: 10px;
+    }
 }
 
 video{
-
+    width: 100% ;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 500px;
-    justify-content: center;
 }
 
 p{
@@ -152,6 +184,12 @@ p{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 0%;
+}
+
+.phraseluffy{
+    text-align: center;
+    margin-top: 0%;
 }
 
 /*----------------------BAS DE PAGE-----------------------*/
@@ -163,12 +201,11 @@ footer{
 }
 
 .contacteznous{
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-.phraseluffy{
-    padding-left: 10px;
-}
+
 
 .listecontacts{
     display: flex;

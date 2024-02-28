@@ -9,60 +9,65 @@
 </head>
 
 <header> 
-    <div class="part1header">
-        <img id="chapeau_de_paille" src="img\chapeau_de_paille.png" alt="logo chapeau de paille">
-        <img id="img_titre" src="img\img_titre.png">
-        <input type="search" id="site-search" name="q" />
-    </div>
-
-    <hr>
-
-    <div class="part2header">
-        <div>
-            <i class="fa-solid fa-house"></i>
-            <a href="">Accueil</a>
+    <nav>
+        <div class="part1header">
+            <img id="chapeau_de_paille" src="img\chapeau_de_paille.png" alt="logo chapeau de paille">
+            <img id="img_titre" src="img\img_titre.png">
+            <input type="search" id="site-search" name="q" />
         </div>
 
-        <div class="">|</div>
+        <hr>
 
-        <div>
-            <i class="fa-solid fa-people-group"></i>
-            <a href="">Personnages</a>
+        <div class="part2header">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <a href="">Accueil</a>
+            </div>
+
+            <div class="">|</div>
+
+            <div>
+                <i class="fa-solid fa-people-group"></i>
+                <a href="">Personnages</a>
+            </div>
+
+            <div>|</div>
+            
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <a href="">Univers</a>
+            </div>
         </div>
 
-        <div>|</div>
-        
-        <div>
-            <i class="fa-solid fa-globe"></i>
-            <a href="">Univers</a>
-        </div>
-    </div>
-
-    <hr>
-
+        <hr>
+    </nav>
 </header>
 
 <body>
     <main>
             <section class="section1">  
-                <div class="actualités">
-                    <ul class="actus">
-                        <h1 class="titreactus">L'actualité de One Piece</h1>
-                        <h2 class="nextsorties">Prochaines sorties:</h2>
-                        <li><a href="https://lelscans.net/lecture-en-ligne-one-piece" target="_blank">Scans</a>, 1109 le 3 mars 2024. </li>
-                        <li><a href="https://www.glenat.com/manga/series/one-piece" target="_blank">Tome</a>, 108 le 4 mars 2024.</li>
-                        <li><a href="https://www.crunchyroll.com/fr/series/GRMG8ZQZR/one-piece" target="_blank">Anime</a>, épisode 1097 le 3 mars 2024. </li>
-                        <li><a href="https://www.netflix.com/fr/title/80217863" target="_blank">Live action</a>, saison 2 prévue.</li>
-                        <li><a href="https://www.google.com/search?q=the+one+piece&oq=the+one+piece&gs_lcrp=EgZjaHJvbWUqDQgAEAAY4wIYsQMYgAQyDQgAEAAY4wI
-                                     YsQMYgAQyDQgBEC4Y1AIYsQMYgAQyDQgCEC4Y1AIYsQMYgAQyBwgDEC4YgAQyBwgEEC4YgAQyBggFEEUYPTIGCAYQRRg8MgYIBxBFGDzSAQgyMDQ1ajBqN6gCAL
-                                     ACAA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on#fpstate=ive&vld=cid:519c2bfa,vid:i9oXgMEdkz4,st:0" target="_blank">The One Piece</a>, remake annoncé.</li>
-                    </ul>
+
+                <div class="divactualite">
+                    <div class="actualités">
+                        <ul class="actus">
+                            <h1 class="titreactus">L'actualité de One Piece</h1>
+                            <h2 class="nextsorties">Prochaines sorties:</h2>
+                            <li><a href="https://lelscans.net/lecture-en-ligne-one-piece" target="_blank">Scans</a>, 1109 le 3 mars 2024. </li>
+                            <li><a href="https://www.glenat.com/manga/series/one-piece" target="_blank">Tome</a>, 108 le 4 mars 2024.</li>
+                            <li><a href="https://www.crunchyroll.com/fr/series/GRMG8ZQZR/one-piece" target="_blank">Anime</a>, épisode 1097 le 3 mars 2024. </li>
+                            <li><a href="https://www.netflix.com/fr/title/80217863" target="_blank">Live action</a>, saison 2 prévue.</li>
+                            <li><a href="https://www.google.com/search?q=the+one+piece&oq=the+one+piece&gs_lcrp=EgZjaHJvbWUqDQgAEAAY4wIYsQMYgAQyDQgAEAAY4wI
+                                         YsQMYgAQyDQgBEC4Y1AIYsQMYgAQyDQgCEC4Y1AIYsQMYgAQyBwgDEC4YgAQyBwgEEC4YgAQyBggFEEUYPTIGCAYQRRg8MgYIBxBFGDzSAQgyMDQ1ajBqN6gCAL
+                                         ACAA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on#fpstate=ive&vld=cid:519c2bfa,vid:i9oXgMEdkz4,st:0" target="_blank">The One Piece</a>, remake annoncé.</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="bountygoldroger">
                     <img class="imgbountygrg" src="img\bounty_goldrgoer.png">
                 </div>
-                    <article>
+                
+                    <article class="articlegoldroger">
                         <div class="txtgoldroger">
                             <h2 class="titregoldroger">Gol D. Roger</h2>
 
@@ -82,18 +87,20 @@
             </section>
 
             <article class="section2">
-                <video width="320" height="240" controls>
+                <video controls>
                 <source src="img\One Piece VF - We Are Opening 1000 Français.mp4" type=video/mp4>
                 </video>
             </article>
+
+            <p class="phraseluffy">"Le roi des pirates, ce sera moi !"</p>
+
     </main>
+
     <footer>
-        <div> 
-            <a class="contacteznous" href="">CONTACTEZ-NOUS</a>
+        <div class="contacteznous"> 
+            <a href="">CONTACTEZ-NOUS</a>
         </div>
-        <div>
-        <p class="phraseluffy">"Le roi des pirates, ce sera moi !"</p>
-        </div>
+
         <section class="listecontacts">
             <h1 class="titrecontacts">Liens officiels:</h>
             <ul class="iconescontacts">
