@@ -1,100 +1,191 @@
+/*----------------------HAUT DE PAGE-----------------------*/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.part1header{
+    background-color: #dd7b19fb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chapeau_de_paille{
+    border-right: 2px solid black;
+    width: 10%;
+    height: 10%;
+    max-width: 40%;
+    max-height: 40%;
+    height: fit-content;
+
+}
+
+#img_titre{
+    width: 40%;
+    height: 40%;
+    padding-left: 60px;
+}
+
+/*----BARRE DE RECHERCHE----*/
+
+input{
+    border-radius: 20px;
+    margin-right: 1%;
+    padding: 5px 5px 3px;
+    border: 2px solid black;
+}
+
+
+hr{
+    border-style: none;
+    background-color: black;
+    height: 2px;
+    margin:0%;
+}
+
+.part2header{
+    background-color: #e2b753ef;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a{ 
+    color: inherit; 
+} 
+
+.part2header i{
+    color: #ffffff;
+} 
+
+
+
+/*----------------------MILIEU DE PAGE-----------------------*/
 
 body{
-	background-color: #ffbf00;
+    margin: 0%;
+    margin-right: 0%;
+    background-color:  #ffebc5;
 }
 
-main{
-	background-color: #eabc60;
-	margin: 5%;
-	padding: 15px;
-	border: 1px solid black;
-	border-radius: 10px;
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
-.grille img{
-	width: 270px;
-	height: 200px;
-	border: 2px solid black;
-	border-radius: 20px;
+.actualités{
+    border-radius: 5px;
+    border: 2px solid black;
+    height: fit-content;
+    margin: 2px;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+    line-height: 20px;
+    width: 100%;
 }
 
-.grille{
-	display: grid;
-	grid-template-columns: 270px 270px;
-	justify-content: center;
-	gap: 20px;
+.nextsorties{
+    margin: 0%;
 }
 
-.mers h1{
-	text-align: center;
+.titreactus{
+    text-decoration: underline;
+    padding-right: 10px;
 }
 
-.mers{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+.actus{
+    width: fit-content;
+    margin-bottom: 2%;
 }
 
-.worldmap{
-	width: 70%;
-	height: 70%;
-	border: 2px solid black;
-	border-radius: 10px;
+
+.bountygoldroger{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    min-width: 25%;
+    padding-right: 150px;
+    padding-left: 50px;
+    padding-top: 5px;
 }
 
-/*-----------------------Iles-------------------------*/
-
-.Alabasta{
-	background: url(../img/alabasta.jpg);
+.imgbountygrg{
+    border: 2px solid black;
 }
 
-.Skypiea{
-	background: url(../img/skypiea.jpg);
+.txtgoldroger{
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.007);
+    margin-left: 20%;
+    margin: 2px;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: fit-content;
+    border: 2px solid black;
 }
 
-.Enies-Lobby{
-	background: url(../img/enies-lobby.jpg);
+.titregoldroger{
+    text-decoration: underline;
 }
 
-.Dressrosa{
-	background: url(../img/dressrosa.jpg);
+video{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    justify-content: center;
 }
 
-.Wano-Kuni{
-	background: url(../img/wano.jpg);
+p{
+    width: auto;
 }
 
-.Alabasta, .Skypiea, .Enies-Lobby, .Dressrosa, .Wano-Kuni{
-	background-size: cover;
-	border: 2px solid black;
-	border-radius: 10px;
-	display: flex;
+.section2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-/*-------------------------------------------------------*/
+/*----------------------BAS DE PAGE-----------------------*/
 
-.iles{
-	color: white;
+footer{
+    display: flex;
+    justify-content:space-between;
+    background-color: #dd7a19;
 }
 
-.ile1{
-	background-color: rgba(0, 0, 0, 0.6);
-	border: 1px dashed black;
-	border-radius: 10px;
+.phraseluffy{
+    padding-left: 10px;
 }
 
-.ile1 p{
-	font-weight: bold;
+.listecontacts{
+    display: flex;
+    margin-top: 0%;
+    flex-direction: column;
+    text-align:center;
 }
 
-.ile2{
-	display: flex;
-	justify-content: space-evenly;
+.titrecontacts{
+    margin: 0%;
+    text-decoration: underline;
 }
 
-.ile2 img{
-	width: 100px;
-	height: 100px;
-	border-radius: 75px;
+.iconescontacts {
+    display: flex;
+    list-style-type: none;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 0%;
+    gap: 10px;
+    color: #ffffff;
+    padding: 0%;
 }
