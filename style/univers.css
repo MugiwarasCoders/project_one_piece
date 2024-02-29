@@ -1,0 +1,159 @@
+
+/*-------------Sections---------------*/
+
+section{
+	scroll-margin-top: 160px;
+}
+
+.mers h2{
+	scroll-margin-top: 160px;
+}
+/*------------------------------------*/
+
+.grille img{
+	width: 270px;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.grille{
+	display: grid;
+	grid-template-columns: 270px 270px;
+	justify-content: center;
+	gap: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.mers{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.worldmap{
+	width: 70%;
+	height: 70%;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+/*-----------------------Iles-------------------------*/
+
+.Alabasta{
+	background: url(../img/alabasta.jpg);
+}
+
+.Skypiea{
+	background: url(../img/skypiea.jpg);
+}
+
+.Enies-Lobby{
+	background: url(../img/enies-lobby.jpg);
+}
+
+.Dressrosa{
+	background: url(../img/dressrosa.jpg);
+}
+
+.Wano-Kuni{
+	background: url(../img/wano.jpg);
+}
+
+.Alabasta, .Skypiea, .Enies-Lobby, .Dressrosa, .Wano-Kuni{
+	background-size: cover;
+	border: 2px solid black;
+	border-radius: 10px;
+	display: flex;
+	margin: 20px 0;
+	scroll-margin-top: 160px;
+}
+
+.background{
+	background: rgba(0, 0, 0, 0.4);
+}
+
+/*------------------------ILES---------------------------*/
+
+.iles{
+	color: white;
+}
+
+.ile1{
+	background-color: rgba(0, 0, 0, 0.6);
+	border: 1px dashed black;
+}
+
+.ile1 p{
+	font-weight: bold;
+}
+
+.ile2{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.ile2 img{
+	margin: 15px;
+	width: 100px;
+	height: 100px;
+	border-radius: 75px;
+}
+
+/*-----------------Hierarchie------------------*/
+
+.pirates{
+	display: flex;
+	flex-direction: column;
+}
+
+.empereurs{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.corsaires{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pirates img{
+	width: 140px;
+}
+
+.hierarchie h2{
+	text-align: center;
+}
+
+.marine{
+	display: flex;
+	flex-direction: column;
+}
+
+.marine img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50px;
+}
+
+.amiraux{
+	display: flex;
+	justify-content: space-around;
+}
+
+.amiral-chef{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+
