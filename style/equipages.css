@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Lobster&display=swap');
 body{
   background-color: rgb(206, 134, 0);
 }
@@ -13,6 +15,23 @@ body{
   border: 5px solid black;
   
 }
+li{
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+}
+p{
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+}
+h1,h2{
+  font-family: "Lobster", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.sunny2{
+  text-align: center;
+  color: rgb(10, 121, 136);
+}
 .pushinp{
   text-align: center;
 }
@@ -20,6 +39,10 @@ body{
   text-align: center;
 }
 .sunny{
+  text-align: center;
+}
+.titre_gorosei{
+  color: rgb(163, 161, 161);
   text-align: center;
 }
 .titre_yonko{
@@ -62,7 +85,10 @@ body{
   background-color: rgba(254, 254, 254, 0.650);
   border-radius: 20px;
 }
-.GM{
+#gorosei .gouver{
+  border: 5px solid blue;
+  border-radius: 20px;
+  margin-left: 450PX;
   width: 60%;
   margin-left: 250px;
 }
@@ -80,4 +106,14 @@ body{
 .amiraux > img{
   justify-self: center;
 }
+#shankse .titre_yonko{
+  color: red;
+}
+#baggy_le_clown .titre_yonko{
+    color: #EED105;
+}
+#luffy-empereur .titre_yonko{
+     color: white;
+}
+
 
