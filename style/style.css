@@ -144,6 +144,24 @@ a{
 	text-align: center;
 }
 
+/*---------------------Haut-de-page-----------------------------*/
+
+.top-arrow{
+    display: flex;
+    position: fixed;
+    z-index: 90;
+    width: 100px;
+    bottom: 60px;
+    margin-bottom: 0%;
+    right: 0%;
+}
+
+.top-arrow:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+}
+
 /*------------Media Queries--------------*/
 @media (max-width: 1024px){
 	.depliant{
@@ -201,5 +219,9 @@ a{
 	.Alabasta, .Skypiea, .Enies-Lobby, .Dressrosa, .Wano-Kuni{
 		scroll-margin-top: 130px;
 	}
+
+	.top-arrow{
+        width: 50px;
+    }
 
 }
