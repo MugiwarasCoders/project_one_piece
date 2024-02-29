@@ -185,6 +185,10 @@ main{
     }  
 }  
 
+::marker{
+    color: #EFD6C5;
+}
+
 .actualités{   
     color: black;
     border-radius: 5px;
