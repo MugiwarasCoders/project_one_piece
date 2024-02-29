@@ -1,48 +1,23 @@
 .box{
-	background-color: #ffebc5;
 	padding: 15px;
 	margin-left: 220px;
 	top: 175px;
 }
 
-main{
-
-}
-
-main hr{
-	margin: 20px 0px;
+.box hr{
+	margin: 20px 0px 0px 0px;
 	height: 3px;
 }
 
-/*-----------------Menu---------------*/
+/*-------------Sections---------------*/
 
-.menu{
-	display: flex;
-	position: fixed;
-	flex-direction: column;
-	background-color: #7f521a;
-	width: 220px;
-	height: -webkit-fill-available;
-	border-right: 2px solid black;
-	color: white;
+section{
+	scroll-margin-top: 160px;
 }
 
-.menu h2{
-	text-align: center;
+.mers h2{
+	scroll-margin-top: 160px;
 }
-
-.menu li{
-	list-style-type: square;
-	width: 100%;
-}
-
-.menu a{
-	text-decoration: none;
-	padding: 10px 0;
-	width: 100%;
-	display: inline-block;
-}
-
 /*------------------------------------*/
 
 .grille img{
@@ -61,6 +36,8 @@ main hr{
 
 h1{
 	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
 }
 
 .mers{
@@ -118,14 +95,9 @@ h1{
 	color: white;
 }
 
-.iles > p{
-	color: black;
-}
-
 .ile1{
 	background-color: rgba(0, 0, 0, 0.6);
 	border: 1px dashed black;
-	border-radius: 10px;
 }
 
 .ile1 p{
@@ -160,8 +132,48 @@ h1{
 
 .corsaires{
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .pirates img{
 	width: 140px;
 }
+
+.hierarchie h2{
+	text-align: center;
+}
+
+.breaker{
+	height: 20px;
+	background: radial-gradient(50% 100% at 50% 100%,#dd7b19 0,rgba(30,84,183,0) 90%);
+	transform: matrix(1,0,0,-1,0,0);
+}
+
+.marine{
+	display: flex;
+	flex-direction: column;
+}
+
+.marine img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50px;
+}
+
+.amiraux{
+	display: flex;
+	justify-content: space-around;
+}
+
+.amiral-chef{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+/*------------Media Queries--------------*/
+@media (max-width: 1280px){
+
+}
+

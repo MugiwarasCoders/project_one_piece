@@ -45,7 +45,13 @@
 	<main>
 		<!-----------------Menu-------------------------->
 		<div class="menu">
-			<h2>Les différentes îles</h2>
+			<h2><a href="#mers">Les différentes mers</a></h2>
+			<ul>
+				<li><a href="#4mers">Les 4 mers</a></li>
+				<li><a href="#worldmap">Carte du monde</a></li>
+			</ul>
+			<hr>
+			<h2><a href="#iles">Les différentes îles</a></h2>
 			<ul>
 				<li><a href="#alabasta">Alabasta</a></li>
 				<li><a href="#skypiea">Skypiea</a></li>
@@ -53,32 +59,39 @@
 				<li><a href="#dressrosa">Dressrosa</a></li>
 				<li><a href="#wano-kuni">Wano-Kuni</a></li>
 			</ul>
+			<hr>
+			<h2><a href="#hierarchie">La Hiérarchie</a></h2>
+			<ul>
+				<li><a href="#pirates">Les pirates</a></li>
+				<li><a href="#marine">La marine</a></li>
+			</ul>
 		</div>
 		<!-------------------Contenu---------------------->
 		<div class="box">
-			<section class="mers">
+			<!---------------Mers------------------------->
+			<section class="mers" id="mers">
 				<h1>Les différentes mers</h1>
+				<h2 id="4mers">Les 4 mers</h2>
 				<div class="grille">
 					<div>
 						<img src="../img/northblue.jpg">
-						<p>NorthBlue</p>
-					</div>
-					<div>
-						<img src="../img/southblue.jpg">
-						<p>SouthBlue</p>
 					</div>
 					<div>
 						<img src="../img/eastblue.jpg">
-						<p>EastBlue</p>
 					</div>
 					<div>
 						<img src="../img/westblue.jpg">
-						<p>WestBlue</p>
+					</div>
+					<div>
+						<img src="../img/southblue.jpg">
 					</div>
 				</div>
+				<h2 id="worldmap">Carte du monde</h2>
 				<img class="worldmap" src="../img/worldmap.jpg">
-			</section><hr>
-			<section class="iles">
+			</section><hr><div class="breaker"></div>
+			<!-------------------------------Iles-------------------->
+			<section class="iles" id="iles">
+				<h1>Les différentes îles</h1>
 				<p>Tout au long de l'aventure, l'équipage au chapeau de paille a vogué d'îles en îles. Sur GrandLine, le seul moyen de s'orienter est le Log Pose, un outil semblable à une boussole mais qui se sert du magnétisme de chaque île pour indiquer la suivante. Ainsi les routes vers le One Piece peuvent être multiples. Voici une liste des îles visitées par l'équipage des mugiwaras:</p>
 				<!----------------------------ALABASTA-------------------->
 				<div class="Alabasta" id="alabasta">
@@ -155,10 +168,11 @@
 						</div>
 					</div>
 				</div>
-			</section><hr>
-			<section class="hierarchie">
+			</section><hr><div class="breaker"></div>
+			<!-----------------------Hierarchie--------------------->
+			<section class="hierarchie" id="hierarchie">
 				<h1>La hiérarchie dans OnePiece</h1>
-				<div class="pirates">
+				<div class="pirates" id="pirates">
 					<h2>Les pirates</h2>
 					<div class="empereurs">
 						<img src="../img/bigmom-prime.jpg">
@@ -176,9 +190,16 @@
 						<img src="../img/mihawk-prime.jpg">
 					</div>
 				</div>
-				<div class="marine">
+				<div class="marine" id="marine">
 					<h2>La marine</h2>
-					
+					<div class="amiral-chef">
+						<img src="../img/akainu.jpg">
+					</div>
+					<div class="amiraux">
+						<img src="../img/fujitora.jpg">
+						<img src="../img/kizaru.jpg">
+						<img src="../img/aokiji.jpg">
+					</div>
 				</div>
 			</section>
 		</div>

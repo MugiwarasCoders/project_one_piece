@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body{
+	margin: 0;
+	color: white;
+	background-color: #262627;
+}
+
+main p{
+	font-family: caveat;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+main h1{
+	text-shadow: 2px 1px #dd7b19;
+}
+
 /*----------------------HAUT DE PAGE-----------------------*/
 header{
     position: sticky;
@@ -6,7 +24,7 @@ header{
 }
 
 .part1header{
-    background-color: #dd7b19fb;
+    background-color: #dd7b19;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -61,131 +79,42 @@ a{
     color: #ffffff;
 } 
 
+/*-----------------Menu---------------*/
 
-
-/*----------------------MILIEU DE PAGE-----------------------*/
-
-body{
-    margin: 0%;
-    margin-right: 0%;
-    background-color:  #ffebc5;
+.menu{
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	background-color: #3d3a34;
+	width: 220px;
+	height: -webkit-fill-available;
+	border-right: 2px solid black;
+	color: white;
 }
 
-.section1{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+.menu ul{
+	margin: 2px;
 }
 
-.actualités{
-    border-radius: 5px;
-    border: 2px solid black;
-    height: fit-content;
-    margin: 2px;
-    margin-top: 5px;
-    margin-left: 15px;
-    
-    line-height: 20px;
-    width: 100%;
+.menu hr{
+	margin: 0;
+	height: 3px;
 }
 
-.nextsorties{
-    margin: 0%;
+.menu h2{
+	text-align: center;
+	margin: 0;
+	text-shadow: 2px 2px #dd7b19;
 }
 
-.titreactus{
-    text-decoration: underline;
-    padding-right: 10px;
+.menu li{
+	list-style-type: square;
+	width: 100%;
 }
 
-.actus{
-    width: fit-content;
-    margin-bottom: 2%;
-}
-
-
-.bountygoldroger{
-    display: flex;
-    flex-direction: column;
-    max-width: 25%;
-    min-width: 25%;
-    padding-right: 150px;
-    padding-left: 50px;
-    padding-top: 5px;
-}
-
-.imgbountygrg{
-    border: 2px solid black;
-}
-
-.txtgoldroger{
-    text-align: center;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.007);
-    margin-left: 20%;
-    margin: 2px;
-    margin-top: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    height: fit-content;
-    border: 2px solid black;
-}
-
-.titregoldroger{
-    text-decoration: underline;
-}
-
-video{
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 500px;
-    justify-content: center;
-}
-
-p{
-    width: auto;
-}
-
-.section2{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-/*----------------------BAS DE PAGE-----------------------*/
-
-footer{
-    display: flex;
-    justify-content:space-between;
-    background-color: #dd7a19;
-}
-
-.phraseluffy{
-    padding-left: 10px;
-}
-
-.listecontacts{
-    display: flex;
-    margin-top: 0%;
-    flex-direction: column;
-    text-align:center;
-}
-
-.titrecontacts{
-    margin: 0%;
-    text-decoration: underline;
-}
-
-.iconescontacts {
-    display: flex;
-    list-style-type: none;
-    width: fit-content;
-    height: fit-content;
-    margin-bottom: 0%;
-    gap: 10px;
-    color: #ffffff;
-    padding: 0%;
+.menu a{
+	text-decoration: none;
+	padding: 10px 0;
+	width: 100%;
+	display: inline-block;
 }
