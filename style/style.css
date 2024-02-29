@@ -15,8 +15,8 @@ main p{
 main h1{
 	text-shadow: 2px 1px #dd7b19;
 }
-
-/*----------------------HAUT DE PAGE-----------------------*/
+/*------------------------------HEADER----------------------*/
+/*---------------HAUT DE PAGE PARTIE 1---------------*/
 header{
     position: sticky;
     top: 0;
@@ -38,13 +38,22 @@ header{
     max-width: 40%;
     max-height: 40%;
     height: fit-content;
-
 }
 
 #img_titre{
     width: 40%;
     height: 40%;
-    padding-left: 60px;
+    padding-left: 6%;
+}
+
+@media(max-width: 768px){
+    #img_titre{
+        padding-left: 15%;
+    }
+}
+
+h1,h2{
+    font-family: "Lobster";
 }
 
 /*----BARRE DE RECHERCHE----*/
@@ -54,8 +63,8 @@ input{
     margin-right: 1%;
     padding: 5px 5px 3px;
     border: 2px solid black;
+    width: 15%;
 }
-
 
 hr{
     border-style: none;
@@ -63,6 +72,8 @@ hr{
     height: 2px;
     margin:0%;
 }
+
+/*---------------HAUT DE PAGE PARTIE 2---------------*/
 
 .part2header{
     background-color: #e2b753ef;
@@ -72,14 +83,33 @@ hr{
 }
 
 a{ 
-    color: inherit; 
+    color: inherit;
+    font-family: "caveat";
+    font-size: 20px;
+    font-weight: 700;
 } 
+
+p{
+    font-family: "caveat";
+    font-size: 20px;
+    font-weight: thin;
+}
+
+span{
+    color: #f7e8d5;
+}
+
+li{
+    font-family: "caveat";
+    font-size: 20px;
+    font-weight: 700;
+}
 
 .part2header i{
     color: #ffffff;
 } 
 
-/*-----------------Menu---------------*/
+/*------------------------MENU---------------------------*/
 
 .menu{
 	display: flex;
