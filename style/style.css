@@ -169,7 +169,7 @@ a{
 
 	.closemenu{
 		width: 75%;
-		height: 100vh;
+		height: 100%;
 		position: absolute;
 		display: block;
 	}
