@@ -131,10 +131,11 @@ li{
 	display: flex;
 	position: sticky;
 	top: 160px;
+	height: 100vh;
 	flex-direction: column;
 	background-color: #3d3a34;
 	width: 220px;
-	height: -webkit-fill-available;
+	margin-top: -100vh;
 	border-right: 2px solid black;
 	color: white;
 }
