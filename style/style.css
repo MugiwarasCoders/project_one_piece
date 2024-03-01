@@ -184,6 +184,7 @@ a{
 
 	#menu:target{
 		display: flex;
+		height: 100vh;
 	}
 
 	.box{
