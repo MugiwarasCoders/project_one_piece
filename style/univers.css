@@ -1,11 +1,15 @@
 
-/*-------------Sections---------------*/
+/*-------------ANCRES---------------*/
 
 section{
 	scroll-margin-top: 160px;
 }
 
-.mers h2{
+h2{
+	scroll-margin-top: 160px;
+}
+
+#haut-de-page{
 	scroll-margin-top: 160px;
 }
 /*------------------------------------*/
