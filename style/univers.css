@@ -2,16 +2,13 @@
 /*-------------ANCRES---------------*/
 
 section{
-	scroll-margin-top: 160px;
+	scroll-margin-top: 150px;
 }
 
 .pirates, .marine{
-	scroll-margin-top: 160px;
+	scroll-margin-top: 150px;
 }
 
-#haut-de-page{
-	scroll-margin-top: 160px;
-}
 /*------------------------------------*/
 
 .grille img{
@@ -76,7 +73,7 @@ h1{
 	border-radius: 10px;
 	display: flex;
 	margin: 20px 0;
-	scroll-margin-top: 160px;
+	scroll-margin-top: 150px;
 }
 
 .background{
@@ -160,4 +157,23 @@ h1{
 	margin-bottom: 15px;
 }
 
+#iles, #alabasta, #skypiea, #enies-lobby, #dressrosa, #wano-kuni{
+	scroll-margin-top: 160px;
+}
 
+h2{
+	scroll-margin-top: 160px;
+}
+
+/*----------------MEDIA QUERIES---------------*/
+
+@media (max-width: 1024px){
+
+	#iles, #alabasta, #skypiea, #enies-lobby, #dressrosa, #wano-kuni{
+		scroll-margin-top: 210px;
+	}
+
+	h2{
+		scroll-margin-top: 210px;
+	}
+}

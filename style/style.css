@@ -19,6 +19,7 @@ main h1{
 .box{
 	padding: 15px;
 	margin-left: 220px;
+	margin-top: -100vh;
 }
 
 .box hr{
@@ -45,18 +46,17 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 120px;
 }
 
 #chapeau_de_paille{
     border-right: 2px solid black;
-    width: 10%;
-    height: 10%;
-    height: fit-content;
+    height: 120px;
 }
 
 #img_titre{
-    width: 40%;
-    height: 40%;
+	height: 120px;
+	width: 500px;
     padding-left: 6%;
 }
 
@@ -94,6 +94,7 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 30px;
 }
 
 a{ 
@@ -128,12 +129,11 @@ li{
 .menu{
 	display: flex;
 	position: sticky;
-	top: 160px;
+	top: 150px;
 	height: 100vh;
 	flex-direction: column;
 	background-color: #3d3a34;
 	width: 220px;
-	margin-top: -100vh;
 	border-right: 2px solid black;
 	color: white;
 }
@@ -177,7 +177,7 @@ li{
 /*---------------------BOUTON-Haut-de-page-----------------------------*/
 
 .haut-de-page{
-	scroll-margin-top: 130px;
+	scroll-margin-top: 206px;
 }
 
 .top-arrow{
@@ -196,15 +196,16 @@ li{
     border-radius: 50%;
 }
 
+#haut-de-page{
+	scroll-margin-top: 160px;
+}
+
 /*------------Media Queries--------------*/
 @media (max-width: 1024px){
 	.depliant{
 		display: block;
 		border: 1px solid black;
-	}
-
-	.nav{
-		height: 130px;
+		height: 30px;
 	}
 
 	.menu{
@@ -213,11 +214,13 @@ li{
 
 	#menu:target{
 		display: flex;
-		height: 100vh;
+		height: -webkit-fill-available;
+		position: fixed;
 	}
 
 	.box{
 		margin-left: 0;
+		margin-top: 0;
 	}
 
 	#menu:target + .box{
@@ -225,7 +228,6 @@ li{
 	}
 
 	.menu a{
-		padding: 15px;
 		font-size: 40px;
 	}
 
@@ -241,43 +243,41 @@ li{
 		margin-bottom: 80px;
 	}
 
+	.menu .breaker{
+		margin-bottom: 10px;
+	}
+
 	.menu{
 		justify-content: center;
 		width: 60%;
 		z-index: 10;
+		top: 206px;
 	}
 
 	.menu hr{
-		margin-top: 80px;
+		margin-top: 10px;
 	}
 
-	section{
-		scroll-margin-top: 130px;
-	}
-
-	h2{
-		scroll-margin-top: 130px;
-	}
-
-	.Alabasta, .Skypiea, .Enies-Lobby, .Dressrosa, .Wano-Kuni{
-		scroll-margin-top: 130px;
+	#haut-de-page{
+		scroll-margin-top: 210px;
 	}
 
 	.top-arrow{
-        width: 50px;
+        width: 150px;
     }
 
     .part1header{
-    	height: 200px;
+    	height: 120px;
     }
 
     .part2header{
     	font-size: 40px;
+    	height: 50px;
     }
 
     #chapeau_de_paille{
-    	width: 20%;
-    	height: 100%;
+    	width: 120px;
+    	height: 120px;
     }
 
 }
@@ -353,3 +353,6 @@ footer{
     margin-top: 5px;
     margin-right: 8px;
 }
+
+/*-------------ANCRES---------------*/
+
