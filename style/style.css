@@ -174,7 +174,11 @@ li{
 	text-align: center;
 }
 
-/*---------------------Haut-de-page-----------------------------*/
+/*---------------------BOUTON-Haut-de-page-----------------------------*/
+
+.haut-de-page{
+	scroll-margin-top: 130px;
+}
 
 .top-arrow{
     display: flex;
