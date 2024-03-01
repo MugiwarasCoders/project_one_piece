@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Lobster&display=swap');
 
 .img_mugiwara{
-    display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px;
-    margin-left: 200px;
-    gap: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .img_mugiwara img{
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 200px;
   border: 5px solid black;
   
 }
