@@ -51,8 +51,6 @@ header{
     border-right: 2px solid black;
     width: 10%;
     height: 10%;
-    max-width: 40%;
-    max-height: 40%;
     height: fit-content;
 }
 
@@ -267,6 +265,19 @@ li{
 
 	.top-arrow{
         width: 50px;
+    }
+
+    .part1header{
+    	height: 200px;
+    }
+
+    .part2header{
+    	font-size: 40px;
+    }
+
+    #chapeau_de_paille{
+    	width: 20%;
+    	height: 100%;
     }
 
 }
