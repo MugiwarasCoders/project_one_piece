@@ -119,8 +119,7 @@ main{
 .bountygoldroger{
     display: flex;
     flex-direction: column;
-    max-width: 40%;
-    min-width: 40%;
+    width: 40%;
     padding-left: 2.5%;
     padding-right: 2.5%;
     padding-top: 5px;
@@ -177,13 +176,9 @@ main{
 /*---------------------VIDEO OPENING ONE PIECE-----------------------*/ 
 
 video{
-    width: 100% ;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-p{
-    width: auto;
 }
 
 .section2{
@@ -271,6 +266,45 @@ footer{
     margin-right: 8px;
 }
 
+/*---------------------------*/
+@media (max-width: 1024px){
+    .section1{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+
+    .divactualite{
+        width: 100%;
+    }
+
+    .actualités{
+        display: flex;
+        justify-content: center;
+    }
+
+    .actualités a{
+        font-size: 60px;
+    }
+
+    .actualités li{
+        font-size: 45px;
+        margin: 10px 0;
+    }
+
+    .section1 p{
+        font-size: 60px;
+    }
+
+    .section1 h1{
+        font-size: 85px;
+    }
+
+    .bountygoldroger{
+        width: 100%;
+    }
+}
 
 
 

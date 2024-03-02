@@ -6,7 +6,7 @@ body{
 	background-color: #262627;
 }
 
-main p{
+.box p{
 	font-family: caveat;
 	font-weight: 700;
 	font-size: 20px;
@@ -291,6 +291,12 @@ footer{
     justify-content:space-between;
     background-color: #dd7a19;
     align-items: center;
+}
+
+@media (max-width: 1024px){
+	footer{
+		height: 300px;
+	}
 }
 
 /*----------------------BAS PARTIE CONTACT-----------------------*/ 
