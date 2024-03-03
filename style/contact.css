@@ -1,0 +1,59 @@
+
+form{
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+}
+
+form input, select{
+	padding: 15px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin: 20px 0px;
+}
+
+input[name="nom"]{
+	margin-right: 0px;
+}
+
+.invisible{
+	display: none;
+}
+
+input[name="envoyer"]{
+	width: fit-content;
+	margin: auto;
+}
+
+.center{
+	text-align: center;
+}
+
+.check{
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.check input{
+	margin: 0 10px;
+}
+
+.formulaire{
+	width: 70%;
+	margin: 50px auto;
+	background-color: #303033;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+@media (max-width: 1024px){
+	footer{
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+	.formulaire{
+		margin: 300px auto;
+	}
+}
