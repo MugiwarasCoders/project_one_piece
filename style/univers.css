@@ -144,6 +144,7 @@ h1{
 	width: 150px;
 	height: 150px;
 	border-radius: 50px;
+	border: 4px groove black;
 }
 
 .amiraux{
