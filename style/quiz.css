@@ -1,0 +1,42 @@
+
+.contenu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px auto;
+	width: 60%;
+	background-color: #303033;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.contenu h1{
+	text-align: center;
+}
+
+.checkbox, .formulaire, .select article{
+	display: flex;
+	flex-direction: column;
+}
+
+.contenu hr{
+	margin-top: 20px;
+}
+
+select, input{
+	width: 50%;
+	padding: 10px;
+}
+
+.invisible{
+	display: none;
+}
+
+@media (max-width: 1024px){
+	.contenu{
+		margin: 200px auto;
+		width: 90%;
+	}
+}
+
